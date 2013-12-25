@@ -10,8 +10,9 @@
     "ic-ajax": "~0.2",
     "ember-testing-httpRespond": "~0.1.1"
   },
-  "resolutions": {
-    "ember": "~1.2.0",
-    "handlebars": "~1.1.2"
+  "devDependencies": {
+    "sass-bootstrap": "~3.0.2",
+    "ember-validations": "*",
+    "ember-addons.bs_for_ember": "~0.5.2"
   }
 }
