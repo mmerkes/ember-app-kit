@@ -4,7 +4,7 @@ define("appkit/app",
         "use strict";
         var Resolver = __dependency1__["default"];
 
-        var App = Ember.Application.extend({
+        var App = Ember.Application.extend(Bootstrap.Register, {
             LOG_ACTIVE_GENERATION: true,
             LOG_MODULE_RESOLVER: true,
             LOG_TRANSITIONS: true,
