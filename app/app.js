@@ -1,8 +1,8 @@
 define("appkit/app",
     ["resolver", "exports"],
-    function (__dependency1__, __exports__) {
+    function (dependency1, __exports__) {
         "use strict";
-        var Resolver = __dependency1__["default"];
+        var Resolver = dependency1["default"];
 
         var App = Ember.Application.extend(Bootstrap.Register, {
             LOG_ACTIVE_GENERATION: true,
