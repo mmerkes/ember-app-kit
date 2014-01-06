@@ -14,6 +14,14 @@ define("appkit/app",
             Resolver: Resolver['default']
         });
 
+        Ember.Application.initializer({
+            name: "authentication",
+
+            initialize: function(container, application) {
+                Ember.SimpleAuth.setup(container, application);
+            }
+        });
+
         Ember.RSVP.configure('onerror', function (error) {
             // ensure unhandled promises raise awareness.
             // may result in false negatives, but visibility is more important

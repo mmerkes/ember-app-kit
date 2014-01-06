@@ -13,5 +13,4 @@ define("appkit/routes/index",
                 }
             }
         });
-    })
-;
+    });

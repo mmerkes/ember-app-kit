@@ -7,13 +7,15 @@
     "ember": "~1.2.0",
     "ember-data": "~1.0.0-beta.3",
     "ember-resolver": "git://github.com/stefanpenner/ember-jj-abrams-resolver.git#master",
+      "ember-simple-auth": "https://github.com/simplabs/ember-simple-auth-component.git",
+      "sass-bootstrap": "~3.0.2",
+      "ember-validations": "*",
+      "ember-addons.bs_for_ember": "~0.5.2",
     "ic-ajax": "~0.2",
     "ember-testing-httpRespond": "~0.1.1",
     "Font-Awesome": "~4.0.3"
   },
   "devDependencies": {
-    "sass-bootstrap": "~3.0.2",
-    "ember-validations": "*",
-    "ember-addons.bs_for_ember": "~0.5.2"
+
   }
 }

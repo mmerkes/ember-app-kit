@@ -8,6 +8,7 @@ define("appkit/router",
         Router.map(function () {
             this.route('component-test');
             this.route('helper-test');
+            this.route('login');
             // this.resource('posts', function() {
             //   this.route('new');
             // });

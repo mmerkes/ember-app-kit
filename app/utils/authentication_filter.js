@@ -6,7 +6,7 @@ define("appkit/utils/authentication_filter",
         var authenticationFilter = Ember.Mixin.extend({
             isUserAuthenticated: function ()
             {
-                if (! App.Session)
+                if (! App.get("session"))
                 {
                     return false;
                 }
