@@ -1,4 +1,4 @@
-$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+$icon-font-path: "/vendor/sass-bootstrap/fonts/";
 
 @import "compass/css3/";
 @import 'sass-bootstrap/lib/bootstrap';
@@ -11,3 +11,17 @@ html, body {
 @keyframes domChanged { from { background: yellow; } }
 @-webkit-keyframes domChanged { from { background: yellow; } }
 .ember-view { animation: domChanged 1s; -webkit-animation: domChanged 1s; }
+
+.button-list
+{
+  li {
+    margin-bottom: 15px;
+    button
+    {
+      width: 100%;
+    }
+  }
+  list-style: none;
+
+
+}
