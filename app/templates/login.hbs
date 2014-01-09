@@ -19,13 +19,26 @@
         </form>
     <div class="col-md-6">
         <ul class="button-list">
-            {{#each provider in listOfAvailableAuthProviders}}
-                <li class="col-md-12 col-lg-6">
-                    <button class="btn btn-large">
-                        <span class="glyphicon glyphicon-star"></span>Sign in with {{provider}}
-                    </button>
-                </li>
-            {{/each}}
+            <li class="col-md-12 col-lg-6">
+                <button class="btn btn-large" {{action 'logInWithGoogle'}}>
+                    <span class="glyphicon glyphicon-star"></span>Sign in with Google
+                </button>
+            </li>
+            <li class="col-md-12 col-lg-6">
+                <button class="btn btn-large" {{action 'logInWithFacebook'}}>
+                    <span class="glyphicon glyphicon-star"></span>Sign in with Facebook
+                </button>
+            </li>
+            <li class="col-md-12 col-lg-6">
+                <button class="btn btn-large" {{action 'logInWithTwitter'}}>
+                    <span class="glyphicon glyphicon-star"></span>Sign in with Twitter
+                </button>
+            </li>
+            <li class="col-md-12 col-lg-6">
+                <button class="btn btn-large" {{action 'logInWithGitHub'}}>
+                    <span class="glyphicon glyphicon-star"></span>Sign in with GitHub
+                </button>
+            </li>
         </ul>
 
     </div>
