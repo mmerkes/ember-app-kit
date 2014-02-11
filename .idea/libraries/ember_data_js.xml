@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="ember-data.js" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$USER_HOME$/.bower/vendor_libraries/ember-data/ember-data.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.bower/vendor_libraries/ember-data/ember-data.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
