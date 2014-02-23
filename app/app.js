@@ -1,18 +1,19 @@
+import Resolver from ;
 define("appkit/app",
-    ["resolver", "exports"],
+    ['ember/resolver', "exports"],
     function (dependency1, __exports__) {
         "use strict";
         var Resolver = dependency1["default"];
 
-        var App = Ember.Application.extend(Bootstrap.Register, {
-            LOG_ACTIVE_GENERATION: true,
-            LOG_MODULE_RESOLVER: true,
-            LOG_TRANSITIONS: true,
-            LOG_TRANSITIONS_INTERNAL: true,
-            LOG_VIEW_LOOKUPS: true,
-            modulePrefix: 'appkit', // TODO: loaded via config
-            Resolver: Resolver['default']
-        });
+var App = Ember.Application.extend({
+  LOG_ACTIVE_GENERATION: true,
+  LOG_MODULE_RESOLVER: true,
+  LOG_TRANSITIONS: true,
+  LOG_TRANSITIONS_INTERNAL: true,
+  LOG_VIEW_LOOKUPS: true,
+  modulePrefix: 'appkit', // TODO: loaded via config
+  Resolver: Resolver['default']
+});
 
         Ember.Application.initializer({
             name: "authentication",
