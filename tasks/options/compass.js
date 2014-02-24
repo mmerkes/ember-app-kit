@@ -11,8 +11,7 @@ module.exports = {
         httpGeneratedImagesPath: "/assets/images/generated",
         httpFontsPath: "/assets/fonts",
         relativeAssets: false,
-        debugInfo: true,
-        sourcemap: true
+        debugInfo: true
     },
     compile: {}
 };
