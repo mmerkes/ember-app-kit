@@ -1,6 +1,6 @@
 module.exports = {
   app: {
-    src: ['tmp/javascript/app/**/*.js'],
+    src: ['tmp/transpiled/app/**/*.js'],
     dest: 'tmp/result/assets/app.js',
     options: {
       sourcesContent: true
@@ -16,7 +16,7 @@ module.exports = {
   },
 
   test: {
-    src: 'tmp/javascript/tests/**/*.js',
+    src: 'tmp/transpiled/tests/**/*.js',
     dest: 'tmp/result/tests/tests.js',
     options: {
       sourcesContent: true
